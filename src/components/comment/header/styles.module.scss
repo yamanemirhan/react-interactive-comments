@@ -1,0 +1,41 @@
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.imageWrapper {
+  img {
+    width: 36px;
+    height: 36px;
+    overflow: hidden;
+    border-radius: 999px;
+    object-fit: cover;
+    object-position: center;
+  }
+}
+
+.username {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dark-blue);
+}
+
+.youIndicator {
+  background-color: var(--moderate-blue);
+  color: var(--white);
+  padding: 2px 4px;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.createdAt {
+  color: var(--grayish-blue);
+}
+
+.actionButtons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}

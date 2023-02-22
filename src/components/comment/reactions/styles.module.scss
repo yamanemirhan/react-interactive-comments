@@ -1,0 +1,15 @@
+.reactionsWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 6px;
+  background-color: var(--light-gray);
+
+  & > * {
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
